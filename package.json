@@ -15,7 +15,8 @@
   "homepage": "https://github.com/HenokG/movie-app-external-api-service#readme",
   "scripts": {
     "prepare": "husky install",
-    "start": "ts-node-dev src/index.ts"
+    "start": "ts-node-dev src/index.ts",
+    "build": "tsc"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --config .eslintrc.yml --fix",
