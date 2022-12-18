@@ -16,7 +16,8 @@
   "scripts": {
     "prepare": "husky install",
     "start": "ts-node-dev src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "prettier": "prettier -c ."
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --config .eslintrc.yml --fix",
