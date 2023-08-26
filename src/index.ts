@@ -6,6 +6,12 @@ dotenv.config();
 const app: Express = express();
 const port = process.env.PORT;
 
+// const typeDefs = `#graphql
+//     type Query {
+//       hello: String
+//     }
+// `;
+
 app.get('/', (req: Request, res: Response) => {
   res.send('Express + TypeScript Server');
 });
